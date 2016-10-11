@@ -11,7 +11,7 @@ do
   if [ -n "${thereis}" ]:
     then
       tput bel
-      echo "${YELLOW}No screen sessions, scanning process have ended${GRAY}"
+      echo "${YELLOW}No screen sessions, the scanning processes have ended${GRAY}"
   fi
   sleep 1
 done
